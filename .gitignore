@@ -1,5 +1,5 @@
 .TMDB_KEY
-imdb_ids.txt
+imdb-ids.txt
 posters
 
 .ruff_cache
