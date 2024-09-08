@@ -3,6 +3,7 @@ import functools
 import json
 import os
 import sys
+import time
 import urllib.request
 from pathlib import Path
 from typing import Iterator, Literal
@@ -95,6 +96,8 @@ def download_posters(
         poster_url = get_poster_url(id, width=width, source=source)
         if download_poster(poster_url, path):
             print(path)
+
+        time.sleep(0.1)
 
 
 def convert_width(width: str) -> Width:
