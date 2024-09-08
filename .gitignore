@@ -1,0 +1,7 @@
+.TMDB_KEY
+imdb_ids.txt
+posters
+
+.ruff_cache
+venv
+__pycache__
